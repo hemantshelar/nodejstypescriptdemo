@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "mySbMsg",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "queueName": "cyriactestqueue",
+      "connection": "conn"
+    }
+  ],
+  "scriptFile": "../dist/demoFunc/index.js"
+}
